@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
 
+  get 'bulletin_board/index'
+
+  get 'bulletin_board/show'
+
+  
+
   # Welcome to our rails app!
   # When someone browses to our website, for example by typing:
   # school-tracker.adadeveloperscademy.org into their browser's URL bar
